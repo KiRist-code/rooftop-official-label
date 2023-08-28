@@ -38,8 +38,8 @@ const About = () => {
         <div id="group" className="contact">
           <p id="title">Contact</p>
           <div id="list">
-            <a href="https://isamin.kr" rel="noreferrer" target="_blank"><Discord /></a>
-            <a href="https://isamin.kr" rel="noreferrer" target="_blank"><Mail /></a>
+            <a href="https://discord.com/invite/fzr7pxPvbu" rel="noreferrer" target="_blank"><Discord /></a>
+            <a href="rooftop_official_label@proton.me" rel="noreferrer" target="_blank"><Mail /></a>
           </div>
         </div>
       </div>
