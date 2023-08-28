@@ -1,0 +1,39 @@
+#navbar {
+  align-items: center;
+  height: 84px;
+
+  &::before {
+    content: '';
+    width: 1px;
+    height: 38px;
+    background-color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  #items {
+    flex-direction: row;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+
+    width: 340px;
+    justify-content: space-between;
+
+    @media (max-width: 768px) {
+      gap: 0;
+      width: 80%;
+      justify-content: space-around;
+    }
+    
+    #item {
+      cursor: pointer;
+      width: 64px;
+
+      &.selected {
+        opacity: 1;
+        font-weight: 700;
+      }
+    }
+  }
+}
