@@ -16,7 +16,11 @@ const About = () => {
         <div id="character" />
         <div id="text">
           <p id="slogun">“MAKE MUSIC. LIVE IN MUSIC.”</p>
-          <p id="description">Rooftop is Korean Label. Many Artist released thier songs through Rooftop Official Label. From 2022, We are have running many Compilations & EPs.</p>
+          <p id="description">
+            Rooftop is Korean Label. Many Artist released their songs through
+            Rooftop Official Label. From 2022, We are have running many
+            Compilations & EPs.
+          </p>
         </div>
       </div>
       <div id="section" className="content">
@@ -26,9 +30,12 @@ const About = () => {
             {Object.keys(artists).map((item, index) => (
               <a href={artists[item].link} rel="noreferrer" target="_blank">
                 <div id="artist" key={index}>
-                  <div id="profile" style={
-                    { backgroundImage: `url(/images/profiles/${artists[item].profile})` }
-                  } />
+                  <div
+                    id="profile"
+                    style={{
+                      backgroundImage: `url(/images/profiles/${artists[item].profile})`,
+                    }}
+                  />
                   <div id="name">{item}</div>
                 </div>
               </a>
@@ -38,13 +45,21 @@ const About = () => {
         <div id="group" className="contact">
           <p id="title">Contact</p>
           <div id="list">
-            <a href="https://discord.com/invite/fzr7pxPvbu" rel="noreferrer" target="_blank"><Discord /></a>
-            <a href="mailto:rooftop_official_label@proton.me"><Mail /></a>
+            <a
+              href="https://discord.com/invite/fzr7pxPvbu"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <Discord />
+            </a>
+            <a href="mailto:rooftop_official_label@proton.me">
+              <Mail />
+            </a>
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 };
 
 export default About;
