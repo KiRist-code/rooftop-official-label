@@ -39,7 +39,7 @@ const About = () => {
           <p id="title">Contact</p>
           <div id="list">
             <a href="https://discord.com/invite/fzr7pxPvbu" rel="noreferrer" target="_blank"><Discord /></a>
-            <a href="mailto:rooftop_official_label@proton.me" rel="noreferrer" target="_blank"><Mail /></a>
+            <a href="mailto:rooftop_official_label@proton.me"><Mail /></a>
           </div>
         </div>
       </div>
